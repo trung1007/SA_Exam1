@@ -23,3 +23,5 @@
 ## `VNC`
 * VNC (Virtual Network Computing) là công nghệ giúp điều khiển máy tính từ xa (tác dụng như TeamView). Có thể truy cập máy tính từ xa, chia sẻ màn hình, điều khiển chuột, bàn phím.
 * VNC hoạt động trên một mô hình server / client. VNC Server được cài đặt trên máy tính bạn muốn điều khiển, VNC Viewer được cài đặt trên máy tính bạn muốn có quyền điều khiển.
+## VNC Demo
+![This is an alt text.](/img/Client.png "This is a sample image.")
