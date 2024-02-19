@@ -6,13 +6,12 @@
 ### `Docker-file` và `Docker-compose `
 * `Docker file` được sử dụng để hỗ trợ tạo image hoặc nhiều image, đơn giản hóa quá trình tạo lập và cài đặt môi trường ảo theo nhu cầu sử dụng 
 * `Docker compose` là công cụ thực hiện quản lý việc chạy các image thành container (image có thể do Docker file tạo ra). Ngoài ra Docker compose còn có thể quản lý volume (lưu trữ), network giữa các container hay biến môi trường
-* `Linux` là kernel có chức năng lấy cảm hứng từ `Unix`, được viết lại từ đầu bởi **Linus Tovarlds** và hoàn toàn **open source**. `Linux` không phải là 1 hệ điều hành hoàn chỉnh, nó chỉ là kernel (giống như động cơ xe ô tô). Linux kết hợp với `GNU` (GNU giống như các phần còn lại phụ tùng cho xe ô tô) tạo thành `GNU/Linux` mới được gọi là 1 OS hoàn chỉnh. Các OS như `Ubuntu`, `Debian`, `Fedora` là các **distribution** của `GNU/Linux`
-* `Linux`, `BSD` hay các biến thể, distribution của 2 thứ này đều được gọi là `*nix` hay `unix-like`
-* `macOS` là 1 nhánh của BSD
 ## `Linux` vs `Unix` vs `BSD` hay `*nix?` `MacOS` thuộc loại nào 
 * `Unix` là OS gốc, bắt nguồn cho các OS khác như `Linux`, `BSD`. Tuy nhiên `Unix` là **close source**
 * `BSD` (Berkeley Software Distribution) là 1 phiên bản của `Unix` (còn gọi là `unix-like` hay `*nix`). `BSD` ban đầu là **close source** tuy nhiên sau này xuất hiện `FreeBSD` là 1 phiên bản **open source** của `BSD`
-* 
+* `Linux` là kernel có chức năng lấy cảm hứng từ `Unix`, được viết lại từ đầu bởi **Linus Tovarlds** và hoàn toàn **open source**. `Linux` không phải là 1 hệ điều hành hoàn chỉnh, nó chỉ là kernel (giống như động cơ xe ô tô). Linux kết hợp với `GNU` (GNU giống như các phần còn lại phụ tùng cho xe ô tô) tạo thành `GNU/Linux` mới được gọi là 1 OS hoàn chỉnh. Các OS như `Ubuntu`, `Debian`, `Fedora` là các **distribution** của `GNU/Linux`
+* `Linux`, `BSD` hay các biến thể, distribution của 2 thứ này đều được gọi là `*nix` hay `unix-like`
+* `macOS` là 1 nhánh của BSD
 ## `Alpine` vs `Ubuntu`
 ### Dependencies và kích thước
 * Alpine sử dụng `musl-libc` và `busy-box` nên rất kích thước nhỏ gọn 
